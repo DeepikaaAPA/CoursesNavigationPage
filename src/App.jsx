@@ -2,6 +2,7 @@ import { Link, Route, Router, Routes, useParams } from "react-router-dom";
 import { useState } from "react";
 import blogs from "./Data/blogs.json";
 import "./App.css";
+import { BlogCard } from "./BlogCard";
 let blogslist = blogs;
 console.log(blogs);
 function App() {
@@ -14,38 +15,38 @@ function App() {
     <>
       <nav>
         <ul>
-        <li
-          onClick={handleclick}
-          className={filter === "All" ? "btn selected" : "btn"}
-        >
-          <Link to="/">All </Link>
-        </li>
-        <li
-          onClick={handleclick}
-          className={
-            filter === "Full Stack Development" ? "btn selected" : "btn"
-          }
-        >
-          <Link to="/fsd">Full Stack Development </Link>
-        </li>
-        <li
-          onClick={handleclick}
-          className={filter === "Cyber Security" ? "btn selected" : "btn"}
-        >
-          <Link to="/cybersecurity">Cyber Security </Link>
-        </li>
-        <li
-          onClick={handleclick}
-          className={filter === "Data Science" ? "btn selected" : "btn"}
-        >
-          <Link to="/ds">Data Science</Link>
-        </li>
-        <li
-          onClick={handleclick}
-          className={filter === "Careers" ? "btn selected" : "btn"}
-        >
-          <Link to="/careers">Careers</Link>
-        </li>
+          <li
+            onClick={handleclick}
+            className={filter === "All" ? "btn selected" : "btn"}
+          >
+            <Link to="/">All </Link>
+          </li>
+          <li
+            onClick={handleclick}
+            className={
+              filter === "Full Stack Development" ? "btn selected" : "btn"
+            }
+          >
+            <Link to="/fsd">Full Stack Development </Link>
+          </li>
+          <li
+            onClick={handleclick}
+            className={filter === "Cyber Security" ? "btn selected" : "btn"}
+          >
+            <Link to="/cybersecurity">Cyber Security </Link>
+          </li>
+          <li
+            onClick={handleclick}
+            className={filter === "Data Science" ? "btn selected" : "btn"}
+          >
+            <Link to="/ds">Data Science</Link>
+          </li>
+          <li
+            onClick={handleclick}
+            className={filter === "Careers" ? "btn selected" : "btn"}
+          >
+            <Link to="/careers">Careers</Link>
+          </li>
         </ul>
       </nav>
       <Routes>
@@ -112,22 +113,4 @@ function Careers() {
     </div>
   );
 }
-function BlogCard({ blog }) {
-  return (
-    <>
-      <div className="blog-card">
-        <img src={blog.thumbnail}></img>
-        <div className="card-desc">
-          <h3 className="blog-title">{blog.title}</h3>
-          <p>By {blog.author}</p>
-          <div className="card-footer">
-            <p>{blog.date}</p>
-            <p>{blog.duration} min read</p>
-          </div>
-        </div>
-      </div>
-    </>
-  );
-}
-
 export default App;
