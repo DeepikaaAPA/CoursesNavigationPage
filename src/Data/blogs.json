@@ -1,0 +1,196 @@
+[
+  {
+    "id": 1,
+    "category": "Full Stack Development",
+    "title": "Best Full-Stack Development Project Ideas in 2024",
+    "author": "Isha Shama",
+    "date": "2 Jul 2020",
+    "duration": "4",
+    "thumbnail": "https://www.guvi.in/blog/wp-content/uploads/2023/07/person-front-computer-working-html.jpg",
+    "views": 10235
+  },
+  {
+    "id": 3,
+    "category": "Full Stack Development",
+    "title": "10 Best Database Management Systems For Software Developers",
+    "author": "Meghana D",
+    "date": "28 Sep 2020",
+    "duration": "3",
+    "thumbnail": "https://www.guvi.in/blog/wp-content/uploads/2023/07/how-long-it-would-it-take-to-learn-full-stack-development_-1536x804.webp",
+    "views": 52266
+  },
+  {
+    "id": 4,
+    "category": "Full Stack Development",
+    "title": "How Long Would It Take to Be a Full Stack Developer?",
+    "author": "Isha Shama",
+    "date": "20 Mar 2023",
+    "duration": "4",
+    "thumbnail": "https://www.guvi.in/blog/wp-content/uploads/2023/02/DBMS1.png",
+    "views": 10235
+  },
+  {
+    "id": 5,
+    "category": "Full Stack Development",
+    "title": "How does Apache work? A detailed introduction to Apache",
+    "author": "Srinithi Sankar",
+    "date": "Mar 26, 2024",
+    "duration": "4",
+    "thumbnail": "https://www.guvi.in/blog/wp-content/uploads/2023/07/person-front-computer-working-html.jpg",
+    "views": 10411
+  },
+  {
+    "id": 6,
+    "category": "Full Stack Development",
+    "title": "10 Hardest and Easiest Programming Languages in 2024",
+    "author": "Saakshi Priyadarshini",
+    "date": "04 Jul, 2024",
+    "duration": "10",
+    "thumbnail": "https://www.guvi.in/blog/wp-content/uploads/2023/03/Untitled-design-41.jpg",
+
+    "views": 25478
+  },
+  {
+    "id": 7,
+    "category": "Data Science",
+    "title": "12 Real-World Data Science Examples: Power Of Data Science",
+    "author": " Lukesh S",
+    "date": "25 Jan, 2024",
+    "duration": "10",
+    "thumbnail": "https://www.guvi.in/blog/wp-content/uploads/2023/07/Real-World-Data-Science-Examples-1536x804.webp",
+
+    "views": 10256
+  },
+  {
+    "id": 8,
+    "category": "Data Science",
+    "title": "Can A Commerce Student Do Data Science?",
+    "author": "Saakshi Priyadarshini",
+    "date": "16 Apr, 2024",
+    "duration": "3",
+    "thumbnail": "https://www.guvi.in/blog/wp-content/uploads/2022/06/5.-data-science-1536x804.png",
+
+    "views": 25256
+  },
+  {
+    "id": 9,
+    "category": "Data Science",
+    "title": "Roles and Responsibilities of a Data Scientist",
+    "author": "By Lukesh S",
+    "date": "25 Jan, 2024",
+    "duration": "10",
+    "thumbnail": "https://www.guvi.in/blog/wp-content/uploads/2023/07/Real-World-Data-Science-Examples-1536x804.webp",
+
+    "views": 10256
+  },
+  {
+    "id": 10,
+    "category": "Data Science",
+    "title": "Everything about Data Scientist Salary in India | 2024",
+    "author": "Srinithi Sankar",
+    "date": "25 Apr, 2024",
+    "duration": "8",
+    "thumbnail": "https://www.guvi.in/blog/wp-content/uploads/2023/08/Everything-about-Data-Scientist-Salary-in-India-2023-1536x804.png",
+
+    "views": 4105
+  },
+  {
+    "id": 11,
+    "category": "Data Science",
+    "title": "How to become a Data Scientist after Mechanical Engineering?  ",
+    "author": "Lahari Chandana",
+    "date": "25 Jan, 2024",
+    "duration": "9",
+    "thumbnail": "https://www.guvi.in/blog/wp-content/uploads/2023/01/paper-analysis-2-1536x1024.jpg",
+
+    "views": 3041
+  },
+  {
+    "id": 12,
+    "category": "Cyber Security",
+    "title": "Cybersecurity Vs Ethical Hacking: Top 10 Differences",
+    "author": "Tushar Vinocha",
+    "date": "16 Jan, 2024",
+    "duration": "10",
+    "thumbnail": "https://www.guvi.in/blog/wp-content/uploads/2022/12/Yellow-Blue-Illustration-Business-Blog-Banner-1536x864.png",
+
+    "views": 6023
+  },
+  {
+    "id": 13,
+    "category": "Cyber Security",
+    "title": "Non-Coding Jobs in Cybersecurity: A Comprehensive Guide",
+    "author": "Jaishree Tomar",
+    "date": "16 Jan, 2024",
+    "duration": "10",
+    "thumbnail": "https://www.guvi.in/blog/wp-content/uploads/2023/12/Feature-image-Non-Coding-Jobs-in-Cybersecurity.webp",
+
+    "views": 5008
+  },
+  {
+    "id": 14,
+    "category": "Cyber Security",
+    "title": "8 Different Types of Cybersecurity and Threats Involved",
+    "author": "Tushar Vinocha",
+    "date": "16 Jan, 2024",
+    "duration": "10",
+    "thumbnail": "https://www.guvi.in/blog/wp-content/uploads/2022/11/Teal-Illustration-Digital-Business-Blog-Banner-1-1536x864.png",
+
+    "views": 6023
+  },
+  {
+    "id": 15,
+    "category": "Cyber Security",
+    "title": "What is Cybersecurity? Importance and its uses & the growing challenges in 2023!",
+    "author": "Tushar Vinocha",
+    "date": "16 Jan, 2024",
+    "duration": "10",
+    "thumbnail": "What is Cybersecurity? Importance and its uses & the growing challenges in 2023!",
+
+    "views": 6023
+  },
+  {
+    "id": 16,
+    "category": "Cyber Security",
+    "title": "The Ultimate Cybersecurity Roadmap for Beginners",
+    "author": "Tushar Vinocha",
+    "date": "16 Jan, 2024",
+    "duration": "10",
+    "thumbnail": "https://www.guvi.in/blog/wp-content/uploads/2021/03/The-Ultimate-%E2%80%A8Cybersecurity-Roadmap-for-Beginners.webp",
+
+    "views": 6023
+  },
+  {
+    "id": 17,
+    "category": "Career",
+    "title": "Non-Coding Jobs in Blockchain: Exploring Opportunities Beyond Tech",
+    "author": "Tushar Vinocha",
+    "date": "16 Jan, 2024",
+    "duration": "10",
+    "thumbnail": "https://www.guvi.in/blog/wp-content/uploads/2023/12/Feature-image-Non-Coding-Jobs-in-Blockchain-768x480.webp",
+
+    "views": 6023
+  },
+  {
+    "id": 18,
+    "category": "Career",
+    "title": "Blockchain Developer Resume Guide: 11 Hot Tips to Make It Professional",
+    "author": "Tushar Vinocha",
+    "date": "16 Jan, 2024",
+    "duration": "10",
+    "thumbnail": "https://www.guvi.in/blog/wp-content/uploads/2023/11/FEATURE-IMAGE-1-2-1536x804.webp",
+
+    "views": 6023
+  },
+  {
+    "id": 19,
+    "category": "Career",
+    "title": "Top 10 High Paying Cloud-Computing Jobs without Coding in 2024",
+    "author": "Tushar Vinocha",
+    "date": "16 Jan, 2024",
+    "duration": "10",
+    "thumbnail": "https://www.guvi.in/blog/wp-content/uploads/2023/11/Top-10-Cloud-Computing-Jobs-without-Coding-1.png",
+
+    "views": 6023
+  }
+]
