@@ -48,17 +48,19 @@ nav {
 .blog-title {
   /* height: 100px; */
   overflow: hidden;
+  color: rgb(22, 22, 22);
 }
 .card-desc {
   padding: 10px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  color: gray;
 }
 
 .card-footer {
   
-  color: gray;
+ 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;

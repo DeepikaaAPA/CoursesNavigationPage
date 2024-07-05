@@ -2,8 +2,8 @@ import { Link, Route, Router, Routes, useParams } from "react-router-dom";
 import { useState } from "react";
 import blogs from "./Data/blogs.json";
 import "./App.css";
-import { BlogCard } from "./BlogCard";
-let blogslist = blogs;
+import { AllBlogs, FSD, DS, CyberSecurity, Careers } from "./AllBlogs";
+export let blogslist = blogs;
 console.log(blogs);
 function App() {
   const [filter, setFilter] = useState("All");
@@ -60,57 +60,4 @@ function App() {
   );
 }
 
-function AllBlogs() {
-  return (
-    <div className="container">
-      {blogslist.map((blog, i) => (
-        <BlogCard key={i} blog={blog}></BlogCard>
-      ))}
-    </div>
-  );
-}
-function FSD() {
-  return (
-    <div className="container">
-      {blogslist
-        .filter((blog) => blog.category === "Full Stack Development")
-        .map((blog, i) => (
-          <BlogCard key={i} blog={blog}></BlogCard>
-        ))}
-    </div>
-  );
-}
-function DS() {
-  return (
-    <div className="container">
-      {blogslist
-        .filter((blog) => blog.category === "Data Science")
-        .map((blog, i) => (
-          <BlogCard key={i} blog={blog}></BlogCard>
-        ))}
-    </div>
-  );
-}
-function CyberSecurity() {
-  return (
-    <div className="container">
-      {blogslist
-        .filter((blog) => blog.category === "Cyber Security")
-        .map((blog, i) => (
-          <BlogCard key={i} blog={blog}></BlogCard>
-        ))}
-    </div>
-  );
-}
-function Careers() {
-  return (
-    <div className="container">
-      {blogslist
-        .filter((blog) => blog.category === "Career")
-        .map((blog, i) => (
-          <BlogCard key={i} blog={blog}></BlogCard>
-        ))}
-    </div>
-  );
-}
 export default App;
