@@ -13,61 +13,52 @@ function App() {
   return (
     <>
       <nav>
-        <button
+        <ul>
+        <li
           onClick={handleclick}
           className={filter === "All" ? "btn selected" : "btn"}
         >
           <Link to="/">All </Link>
-        </button>
-        <button
+        </li>
+        <li
           onClick={handleclick}
           className={
             filter === "Full Stack Development" ? "btn selected" : "btn"
           }
         >
           <Link to="/fsd">Full Stack Development </Link>
-        </button>
-        <button
+        </li>
+        <li
           onClick={handleclick}
           className={filter === "Cyber Security" ? "btn selected" : "btn"}
         >
-          {" "}
-          Cyber Security{" "}
-        </button>
-        <button
+          <Link to="/cybersecurity">Cyber Security </Link>
+        </li>
+        <li
           onClick={handleclick}
           className={filter === "Data Science" ? "btn selected" : "btn"}
         >
-          {" "}
-          Data Science{" "}
-        </button>
-        <button
+          <Link to="/ds">Data Science</Link>
+        </li>
+        <li
           onClick={handleclick}
           className={filter === "Careers" ? "btn selected" : "btn"}
         >
-          {" "}
-          Careers{" "}
-        </button>
+          <Link to="/careers">Careers</Link>
+        </li>
+        </ul>
       </nav>
       <Routes>
         <Route path="/" element={<AllBlogs />}></Route>
         <Route path="/fsd" element={<FSD />}></Route>
         <Route path="/ds" element={<DS />}></Route>
-        <Route path="/CyberSecurity" element={<CyberSecurity />}></Route>
-        <Route path="/Careers" element={<Careers />}></Route>
+        <Route path="/cybersecurity" element={<CyberSecurity />}></Route>
+        <Route path="/careers" element={<Careers />}></Route>
       </Routes>
     </>
   );
 }
-function Blog() {
-  return (
-    <div className="container">
-      {blogslist.map((blog) => (
-        <BlogCard blog={blog}></BlogCard>
-      ))}
-    </div>
-  );
-}
+
 function AllBlogs() {
   return (
     <div className="container">
@@ -114,7 +105,7 @@ function Careers() {
   return (
     <div className="container">
       {blogslist
-        .filter((blog) => blog.category === "Careers")
+        .filter((blog) => blog.category === "Career")
         .map((blog, i) => (
           <BlogCard key={i} blog={blog}></BlogCard>
         ))}
