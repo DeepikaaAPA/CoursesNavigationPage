@@ -3,6 +3,9 @@ export function BlogCard({ blog }) {
     <>
       <div className="blog-card">
         <img src={blog.thumbnail}></img>
+        <div className="views"> 
+      {blog.views} { "👁️"}
+        </div>
         <h3 className="blog-title">{blog.title}</h3>
         <div className="card-desc">
           

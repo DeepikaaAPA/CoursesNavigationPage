@@ -6,14 +6,22 @@
   margin: 20px;
   justify-content: space-around;
 }
-a{
+.views {
+  position: absolute;
+  background-color: white;
+  border-radius: 20px;
+  padding: 3px 8px;
+  top: 10px;
+  right: 20px;
+}
+a {
   text-decoration: none;
-  color:inherit;
+  color: inherit;
 }
 .btn {
   padding: 20px 20px;
   background-color: rgb(14, 142, 18);
-  color:  rgb(203, 197, 197) ;
+  color: rgb(203, 197, 197);
 
   height: 100%;
   font-size: 20px;
@@ -29,16 +37,17 @@ nav {
   background-color: rgb(14, 142, 18);
 }
 .btn:hover {
-  color:  white;
+  color: white;
   /* background-color: rgb(203, 197, 197); */
-  border-bottom: 5px solid  rgb(203, 197, 197) ;
+  border-bottom: 5px solid rgb(203, 197, 197);
 }
 .btn.selected {
   color: white;
   /* background-color: rgb(203, 197, 197); */
-  border-bottom: 5px solid  white ;
+  border-bottom: 5px solid white;
 }
 .blog-card {
+  position: relative;
   border-radius: 5px;
   background-color: white;
   width: 280px;
@@ -47,7 +56,6 @@ nav {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-
 }
 .blog-title {
   /* height: 100px; */
@@ -64,8 +72,6 @@ nav {
 }
 
 .card-footer {
-  
- 
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -86,5 +92,5 @@ h3 {
 }
 ul {
   list-style: none;
-  display :flex;
+  display: flex;
 }
